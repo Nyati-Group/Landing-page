@@ -58,4 +58,13 @@ export const departments = [
       { name: 'Document Intelligence', url: 'https://docscomparisontool.vercel.app/dashboard', icon: 'FileSearch' },
     ],
   },
+  {
+    id: 'crm',
+    name: 'CRM',
+    description: 'Customer outreach, calls and relationship management.',
+    icon: 'Headset',
+    apps: [
+      { name: 'Calling Agent', url: 'https://calling-agent-mu.vercel.app/', icon: 'PhoneCall' },
+    ],
+  },
 ]
