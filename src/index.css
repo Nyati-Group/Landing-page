@@ -1,0 +1,45 @@
+@import 'tailwindcss';
+
+/*
+  Brand palette — taken from the Nyati Group logo.
+  The logo is white on black, so the palette is monochrome: white and silver
+  accents on near-black surfaces. --ink-* are the darker graphite tones used
+  for thumbnails, where white icons sit on top.
+*/
+:root {
+  --brand-1: #ffffff;
+  --brand-2: #c4c4c4;
+  --brand-3: #8a8a8a;
+  --ink-1: #3a3a3a;
+  --ink-2: #222222;
+  --ink-3: #111111;
+  --bg: #0a0a0a;
+  --surface: #151515;
+}
+
+@theme {
+  --color-brand-1: var(--brand-1);
+  --color-brand-2: var(--brand-2);
+  --color-brand-3: var(--brand-3);
+  --color-bg: var(--bg);
+  --color-surface: var(--surface);
+  --font-sans: 'Plus Jakarta Sans', ui-sans-serif, system-ui, sans-serif;
+}
+
+body {
+  background: var(--bg);
+  color: #ededed;
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+@utility bg-brand-gradient {
+  background-image: linear-gradient(135deg, var(--brand-1), var(--brand-2), var(--brand-3));
+}
+
+@utility text-brand-gradient {
+  background-image: linear-gradient(90deg, var(--brand-1), var(--brand-2), var(--brand-3));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
