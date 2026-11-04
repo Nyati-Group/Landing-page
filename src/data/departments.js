@@ -13,8 +13,6 @@ export const departments = [
       { name: 'Task Management', url: 'https://task-nyaticompliance.ai.studio', icon: 'ListChecks' },
       { name: 'Department Dashboard', url: 'https://nyati-compliance-department-dashboa.vercel.app/', icon: 'LayoutDashboard' },
       { name: 'Compliance Chatbot', url: 'https://aicomplianceassistant.ai.studio', icon: 'MessageSquareText' },
-      { name: 'Compliance Calendar & Tracking', url: '', icon: 'CalendarCheck' },
-      { name: 'Regulatory Updates & Intelligence', url: '', icon: 'Radar' },
       { name: 'Document Intelligence', url: 'https://docscomparisontool.vercel.app/login', icon: 'FileSearch' },
     ],
   },
@@ -46,6 +44,18 @@ export const departments = [
     icon: 'DraftingCompass',
     apps: [
       { name: 'Task Management', url: 'https://nyati-architecturetask.ai.studio', icon: 'ListChecks' },
+    ],
+  },
+  {
+    id: 'legal',
+    name: 'Legal',
+    description: 'Contracts, agreements and legal matters.',
+    icon: 'Scale',
+    apps: [
+      { name: 'Task Management', url: 'https://nyatitask.ai.studio', icon: 'ListChecks' },
+      { name: 'Legal GPT', url: 'https://nyatilegalgpt.ai.studio', icon: 'MessageSquareText' },
+      { name: 'Land & Legal Dashboard', url: 'https://legalkrakpimanagementsystem.ai.studio', icon: 'LayoutDashboard' },
+      { name: 'Document Intelligence', url: 'https://docscomparisontool.vercel.app/dashboard', icon: 'FileSearch' },
     ],
   },
 ]

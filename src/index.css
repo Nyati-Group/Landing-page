@@ -2,19 +2,19 @@
 
 /*
   Brand palette — taken from the Nyati Group logo.
-  The logo is white on black, so the palette is monochrome: white and silver
-  accents on near-black surfaces. --ink-* are the darker graphite tones used
-  for thumbnails, where white icons sit on top.
+  The logo is Nyati navy (#014b85) on white, so the page is light with navy
+  and blue accents. --ink-* are the blue tones used for thumbnails, where
+  white icons sit on top.
 */
 :root {
-  --brand-1: #ffffff;
-  --brand-2: #c4c4c4;
-  --brand-3: #8a8a8a;
-  --ink-1: #3a3a3a;
-  --ink-2: #222222;
-  --ink-3: #111111;
-  --bg: #0a0a0a;
-  --surface: #151515;
+  --brand-1: #014b85;
+  --brand-2: #1d6fb8;
+  --brand-3: #3d8fd6;
+  --ink-1: #2a7cc4;
+  --ink-2: #014b85;
+  --ink-3: #002b4f;
+  --bg: #f4f7fb;
+  --surface: #ffffff;
 }
 
 @theme {
@@ -28,7 +28,7 @@
 
 body {
   background: var(--bg);
-  color: #ededed;
+  color: #0f1f38;
   font-family: var(--font-sans);
   -webkit-font-smoothing: antialiased;
 }
